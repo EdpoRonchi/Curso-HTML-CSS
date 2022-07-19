@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*
+em HTML é ID em CSS é # (só pode um elemento por documento)
+em HTML é class em CSS é . (ponto)(pode vários elementos)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+     
+}
+h1{
+    color: black;
+    }
+    #principal{
+        color: #0E613D;
+        text-align: center;
+        background-color: #81B8A9;
+        font-size: 39px;
+        width: -0.5px;
+        height: 47.8px;
+    }
+    .h12{
+        text-align: center;
+        background-color: #81B8A9;
+    }
+       h2{
+        color: #276151;
+    }
+.basico{
+    color: #276151;
+    text-align: center;
+    background-color: #81B8A9;
+    font-size: 20px;
+   width: -0.5px;
+    height: 28px;
+}  
+.intermediario{
+    text-align: center;
+    color: #798133;
+    background-color: #81B8A9;
+    font-size: 20px;
+   width: -0.5px;
+    height: 28px;
+}  
+.avancado{
+    color: #613027;
+    text-align: center;
+    background-color: #81B8A9;
+    font-size: 20px;
+   width: -0.5px;
+    height: 28px;
+}
